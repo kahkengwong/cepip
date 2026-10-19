@@ -84,7 +84,7 @@ The script checks 722 published values, including 56 DEG values, and all of them
 
 ## 6. Reproducing the CEP-IP analysis of the PCa dataset
 
-`inst/scripts/reproduce_cmpb_pca.R` reruns the prostate cancer (PCa) analysis of the published CEP-IP paper. It fits TRPM4 against the mean of seven ribosomal genes in each of the seven tumor samples, without donors and with the IP split on the TRPM4 axis (`ip_axis = "x"`), as in the paper. It needs `GSE185344_Seurat_processed.RData` (9.5 GB) from the Hugging Face dataset [kahkengwong/CEP-IP_Framework](https://huggingface.co/datasets/kahkengwong/CEP-IP_Framework) and the SeuratObject package. When Supplementary Table 10 of the paper ([Zenodo](https://doi.org/10.5281/zenodo.19360154)) is also given, the script compares the EP of every cell as well.
+`inst/scripts/reproduce_cmpb_pca.R` reruns the prostate cancer (PCa) analysis of the published CEP-IP paper. It fits TRPM4 against the mean of seven ribosomal genes in each of the seven tumor samples, without donors and with the IP split on the TRPM4 axis (`ip_axis = "x"`), as in the paper. It needs `GSE185344_Seurat_processed.RData` (9.5 GB) from the Hugging Face dataset [kahkengwong/CEP-IP_Framework](https://huggingface.co/datasets/kahkengwong/CEP-IP_Framework) and the SeuratObject package. When Supplementary Table 10 of the paper is also given, the script compares the EP of every cell as well. The table (`Supplementary_Table_10_Deviance_Components__EP.xlsx`) is in the same Hugging Face dataset as the .RData, and in the paper's [Zenodo](https://doi.org/10.5281/zenodo.19360154) record.
 
 ```sh
 Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_cmpb_pca.R", package = "cepip"))')" cepip_cmpb_pca 4 <folder with the .RData> <Supplementary Table 10 .xlsx>
