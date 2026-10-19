@@ -58,7 +58,8 @@ when no band is given.
 \details{
 * Copula coordinates over all cells: u = rank(x) / (n + 1) and
   v = rank(y) / (n + 1), with average ranks for ties.
-* IP_u = #{x <= IPx} / (n + 1) and IP_v = #{y <= IPy} / (n + 1).
+* IP_u = (number of cells with x <= IPx) / (n + 1) and IP_v = (number of cells
+  with y <= IPy) / (n + 1).
 * The spine g(u) is a GAM, v ~ s(u, bs = "tp", k) (with the donor random
   intercept and inverse-donor weights when donors are known), fitted by
   REML (`select = TRUE`, `gamma = 1.5`) on the SKCS-core TREP cells, with k

@@ -10,7 +10,7 @@ This is a new submission.
 
 ## Test environments
 
-* Fedora, Podman container, R 4.6.1
+* Ubuntu 24.04.5 (Podman container on Fedora), R 4.6.1
 * win-builder, R-devel
 
 ## Notes for the reviewers
