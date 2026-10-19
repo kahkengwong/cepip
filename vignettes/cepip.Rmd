@@ -1,0 +1,157 @@
+---
+title: "Getting started with cepip"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Getting started with cepip}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", fig.width = 7, fig.height = 5)
+library(cepip)
+```
+
+## 1. What the package does
+
+cepip relates a gene of interest (GOI) to the mean expression of its partner
+genes, cell by cell, and finds where that relationship changes.
+
+1. A GAM, `y ~ x + s(x)`, is fitted by REML with the basis dimension k chosen
+   by the lowest penalized residual sum of squares (PRSS).
+2. Each cell gets an explanatory power (EP). The top round(n x DE) cells by EP
+   are the TREP cells.
+3. The inflection point (IP) is the first negative-to-positive zero crossing of
+   a residual GAM R(x) of the top-EP cells, with a 95% CI and an IP reliability
+   score (IPRS).
+4. Optional: the Spearman-Kendall cell-level score (SKCS) keeps the cells that
+   carry the co-expression (SKCS-core).
+5. Optional: CMRF (copula-based module refinement with fold cross-validation)
+   recovers cells near the module through a tolerance band and a repeated
+   stratified k-fold cross-validation gate (RSk-fCV).
+
+Steps 1 to 3 are the published CEP-IP. The package does not transform the
+data, so `x` and `y` must be on the scale you want to analyse (the SEA-AD
+analysis used ln(CP10K + 1)).
+
+## 2. Quick example on simulated data
+
+`cepip_toy` holds 1,200 simulated cells from 12 donors.
+
+```{r toy}
+d <- cepip_toy
+d$y <- cepip_composite(d, paste0("P", 1:8))
+res <- cepip(d$x, d$y, donor = d$donor, id = d$id, cmrf = TRUE, tests = FALSE)
+res
+```
+
+With `donor`, the GAMs include a donor random intercept and weight each cell
+by 1 / (cells of its donor). Without `donor`, every cell has weight 1, as in
+the published CEP-IP.
+
+```{r toy-plots, fig.height = 5}
+plot_fit(res)
+plot_residual(res$ip)
+plot_module(res$cmrf)
+```
+
+The Pre-IP and Post-IP labels use the response axis by default (y < IPy is
+Pre-IP). The published CEP-IP analyses split on the GOI axis, which
+`ip_axis = "x"` reproduces.
+
+## 3. Tuning the CMRF band
+
+The band is widest at the IP. Its half-width is
+delta_base x (1 + kappa x K(u)), where K is a Gaussian kernel with standard
+deviation `bw` centred at the IP. `cepip_band()` is fast, so several settings
+can be compared before running the gate. `cepip_cmrf()` uses kappa = 0.5 and
+bw = 0.1 when no band is given.
+
+```{r band, fig.width = 12, fig.height = 9}
+b <- cepip_band(res$skcs, res$ip, kappa = 0.5, bw = 0.1)
+plot_band(b)
+```
+
+```{r gate, eval = FALSE}
+cm <- cepip_cmrf(band = b, workers = 2)
+plot_rskfcv(cm, "first")
+plot_rskfcv(cm, "last")
+```
+
+## 4. Downstream analyses
+
+The four groups are Module Post-IP (`PostIP`), Module Pre-IP (`PreIP`),
+non-Module Post-IP (`NMPost`) and non-Module Pre-IP (`NMPre`). Without CMRF,
+the TREP cells take the place of the Module.
+
+```{r donor}
+dp <- cepip_donor(res)
+head(dp)
+```
+
+`cepip_deg()` compares two groups with a paired design across donors. It
+needs log1p-normalized expression (genes x cells) with the cell ids as column
+names.
+
+```{r deg, eval = FALSE}
+deg <- cepip_deg(res, expr, contrast = c("PostIP_vs_PreIP", "PostIP_vs_NMPost"))
+plot_deg(deg, "PostIP_vs_PreIP")
+```
+
+`cepip_associate()` relates a donor-level measure to outcomes with
+ordinary least squares on z-scores, adjusting for covariates.
+
+```{r assoc, eval = FALSE}
+tab <- merge(dp, donor_metadata, by = "donor")
+as <- cepip_associate(tab, "pct_PostIP", outcomes = c("MMSE", "Braak"),
+                      covariates = c("age", "sex", "PMI"))
+plot_associate(as)
+```
+
+Which groups to compare, the outcomes and the covariates depend on the
+question and on the data available. The defaults of the DEG step (5%
+expressing cells, at least 3 cells per donor and group, at least 5 paired
+donors, FDR < 0.05 and |log2FC| >= 0.25) are those of the SEA-AD analysis.
+
+## 5. The partner screen
+
+`cepip_screen()` screens candidate GOIs for partner genes by Spearman rs and
+Kendall tau-b. By default a GOI is screened when it is expressed in at least
+25% of the cells with a mean of at least 0.3 over the expressing cells, and a
+partner passes at rs >= 0.6 and tau-b >= 0.5. These defaults suit
+ln(CP10K + 1) data from one cell population; adjust them for other data.
+
+```{r screen, eval = FALSE}
+sc <- cepip_screen(expr, donor = donor)
+head(sc$ranking)
+plot_screen(sc)
+```
+
+## 6. Reproducing the SEA-AD analysis
+
+The example data of the paper are the Micro-PVM_3-SEAAD cells of the Seattle
+Alzheimer's Disease Brain Cell Atlas (SEA-AD) with MT-CO3 > 0, and the cells of
+the housekeeping-gene control arm. They are downloaded once with
+`cepip_example()`. Use of the SEA-AD data is subject to the Allen Institute
+Terms of Use and Citation Policy.
+
+```{r seaad, eval = FALSE}
+pv <- cepip_example("pvm3")
+MT8 <- c("MT-ATP6", "MT-CO2", "MT-ND3", "MT-ND4", "MT-CYB", "MT-ND1", "MT-ND2", "MT-CO1")
+d <- pv[pv$region_set == "NeoC", ]
+res <- cepip(d[["MT-CO3"]], cepip_composite(d, MT8), donor = d$donor, id = d$barcode,
+             cmrf = TRUE, ip_k = 10, y_spine = d$composite_part8, workers = 4)
+cepip_save(list(NeoC = res), "PVM_3")
+```
+
+The script `system.file("scripts", "reproduce_seaad.R", package = "cepip")`
+runs both region sets of the PVM_3 arm, the HKG8 control arm and the
+same-cell housekeeping control, and compares every value with the published
+one. Expected values for PVM_3 NeoC include IPx = 2.4953, IPRS = 0.791,
+8,407 SKCS-core cells, 8,103 OriRef cells, 1,351 Recovered cells and 643
+cells removed by the gate.
+
+The published SEA-AD analysis used `ip_k = 10` for the IP fit and fitted the
+CMRF spine on the composite column of its data export, which is stored in
+single precision (`y_spine`). The eight partner genes were chosen from the
+per-region screens of the paper.

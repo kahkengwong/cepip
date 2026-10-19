@@ -1,0 +1,699 @@
+"arm","region_set","step","item","value","tolerance"
+"PVM_3","NeoC","01_fit","k_DFC",10,0
+"PVM_3","NeoC","01_fit","DE_DFC",0.588296943679248,1e-07
+"PVM_3","NeoC","01_fit","k_MTG",4,0
+"PVM_3","NeoC","01_fit","DE_MTG",0.543933339941056,1e-07
+"PVM_3","NeoC","01_fit","k_AnG",10,0
+"PVM_3","NeoC","01_fit","DE_AnG",0.458888342167299,1e-07
+"PVM_3","NeoC","01_fit","k_STG",8,0
+"PVM_3","NeoC","01_fit","DE_STG",0.666726978352007,1e-07
+"PVM_3","NeoC","01_fit","k_V1C",9,0
+"PVM_3","NeoC","01_fit","DE_V1C",0.665767767900874,1e-07
+"PVM_3","NeoC","01_fit","k_ITG",7,0
+"PVM_3","NeoC","01_fit","DE_ITG",0.651081533993067,1e-07
+"PVM_3","NeoC","01_fit","k_Pooled",9,0
+"PVM_3","NeoC","01_fit","DE_Pooled",0.611724045896779,1e-07
+"HKG_control","NeoC","01_fit","k_DFC",3,0
+"HKG_control","NeoC","01_fit","DE_DFC",0.00160918527179632,1e-07
+"HKG_control","NeoC","01_fit","k_MTG",3,0
+"HKG_control","NeoC","01_fit","DE_MTG",0.0142335296647411,1e-07
+"HKG_control","NeoC","01_fit","k_AnG",8,0
+"HKG_control","NeoC","01_fit","DE_AnG",-0.0034937001765825,1e-07
+"HKG_control","NeoC","01_fit","k_STG",5,0
+"HKG_control","NeoC","01_fit","DE_STG",0.0116732465136696,1e-07
+"HKG_control","NeoC","01_fit","k_V1C",3,0
+"HKG_control","NeoC","01_fit","DE_V1C",0.00110392759465263,1e-07
+"HKG_control","NeoC","01_fit","k_ITG",3,0
+"HKG_control","NeoC","01_fit","DE_ITG",-0.00278960555759493,1e-07
+"HKG_control","NeoC","01_fit","k_Pooled",10,0
+"HKG_control","NeoC","01_fit","DE_Pooled",0.00856254279213518,1e-07
+"PVM_3","NonNeoC","01_fit","k_HIP",10,0
+"PVM_3","NonNeoC","01_fit","DE_HIP",0.60721725037993,1e-07
+"PVM_3","NonNeoC","01_fit","k_MEC",8,0
+"PVM_3","NonNeoC","01_fit","DE_MEC",0.634226608234627,1e-07
+"PVM_3","NonNeoC","01_fit","k_LEC",8,0
+"PVM_3","NonNeoC","01_fit","DE_LEC",0.448936595986135,1e-07
+"PVM_3","NonNeoC","01_fit","k_FI",10,0
+"PVM_3","NonNeoC","01_fit","DE_FI",0.463959059911053,1e-07
+"PVM_3","NonNeoC","01_fit","k_Pooled",10,0
+"PVM_3","NonNeoC","01_fit","DE_Pooled",0.598482403212256,1e-07
+"HKG_control","NonNeoC","01_fit","k_HIP",7,0
+"HKG_control","NonNeoC","01_fit","DE_HIP",0.00117265281968556,1e-07
+"HKG_control","NonNeoC","01_fit","k_MEC",7,0
+"HKG_control","NonNeoC","01_fit","DE_MEC",0.0280507733849062,1e-07
+"HKG_control","NonNeoC","01_fit","k_LEC",9,0
+"HKG_control","NonNeoC","01_fit","DE_LEC",-0.00397959213172198,1e-07
+"HKG_control","NonNeoC","01_fit","k_FI",10,0
+"HKG_control","NonNeoC","01_fit","DE_FI",0.0131989097566884,1e-07
+"HKG_control","NonNeoC","01_fit","k_Pooled",8,0
+"HKG_control","NonNeoC","01_fit","DE_Pooled",0.00997724802226087,1e-07
+"PVM_3","NeoC","02_ip","IP_Value",2.4952725204689,1e-07
+"PVM_3","NeoC","02_ip","IP_CI_Lower",2.46163240384079,1e-07
+"PVM_3","NeoC","02_ip","IP_CI_Upper",2.52801364222712,1e-07
+"PVM_3","NeoC","02_ip","IP_Y_Value",1.66480173209012,1e-07
+"PVM_3","NeoC","02_ip","IP_Y_CI_Lower",1.63849254001865,1e-07
+"PVM_3","NeoC","02_ip","IP_Y_CI_Upper",1.69057901424957,1e-07
+"PVM_3","NeoC","02_ip","C1",0.988856683595307,1e-07
+"PVM_3","NeoC","02_ip","C2",1,1e-07
+"PVM_3","NeoC","02_ip","C3",0.871746606483481,1e-07
+"PVM_3","NeoC","02_ip","C4",0.781575526162252,1e-07
+"PVM_3","NeoC","02_ip","C5",0.312023493423371,1e-07
+"PVM_3","NeoC","02_ip","IPRS",0.790840461932882,1e-07
+"PVM_3","NeoC","03_skcs","n_core",8407,0
+"PVM_3","NeoC","03_skcs","n_TREP",7617,0
+"PVM_3","NeoC","04_band","delta_base",0.169289907500855,1e-06
+"PVM_3","NeoC","04_band","IP_u",0.645289528952895,1e-09
+"PVM_3","NeoC","04_band","n_candidates",1994,0
+"PVM_3","NeoC","05_cmrf","n_Original + Refined",8103,0
+"PVM_3","NeoC","05_cmrf","n_Recovered",1351,0
+"PVM_3","NeoC","05_cmrf","n_Original only",304,0
+"PVM_3","NeoC","05_cmrf","n_Excluded",3573,0
+"PVM_3","NeoC","05_cmrf","n_removed",643,0
+"PVM_3","NeoC","05_cmrf","p_final",1.2321430162202e-28,1e-06
+"PVM_3","NeoC","05_cmrf","dRMSE_final",0.0191813960740508,1e-06
+"PVM_3","NeoC","05_cmrf","BV",0.0202448280516526,1e-06
+"PVM_3","NeoC","06_validate","k",10,0
+"PVM_3","NeoC","06_validate","DE",0.874099654222604,1e-07
+"PVM_3","NeoC","06_validate","n_TREP",8637,0
+"PVM_3","NeoC","06_validate","agreement_pct",97.5,0.05
+"PVM_3","NeoC","07_donor","pct_PostIP_H19.33.004",15.9574468085106,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.001",11.1904761904762,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.002",4.34782608695652,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.004",17.5675675675676,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.005",38.0352644836272,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.008",32.5301204819277,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.011",14.2857142857143,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.012",18.2464454976303,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.013",13.4020618556701,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.014",0,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.015",29.041095890411,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.016",6,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.017",42.4,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.018",53.9805825242719,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.019",14.2361111111111,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.020",55.6350626118068,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.024",2.12765957446809,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.025",3.05555555555555,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.026",38.4615384615385,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.027",10.4477611940298,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.028",81.5834767641997,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.029",9.88372093023256,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.030",19.6581196581197,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.031",8.85167464114832,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.032",1.75438596491228,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.033",46.2222222222222,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.034",7.54716981132075,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.035",3.95480225988701,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.036",56.7567567567568,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.037",62.7177700348432,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.038",58.2417582417582,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.039",7.64119601328904,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.040",18.2960893854749,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.041",10.5263157894737,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.043",5.47945205479452,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.044",14.2857142857143,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.045",71.4285714285714,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H20.33.046",54.8736462093863,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.001",10.5421686746988,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.002",26.8595041322314,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.003",5.66037735849057,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.004",5.4945054945055,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.005",29.5774647887324,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.006",6.72268907563025,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.007",16.9014084507042,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.008",46.2908011869436,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.009",27.2727272727273,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.010",44.7154471544715,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.011",2.7027027027027,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.012",4.05405405405405,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.013",45.5284552845528,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.014",5.68181818181818,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.015",2.3121387283237,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.016",14.6341463414634,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.017",25,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.018",32.7777777777778,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.019",22.3076923076923,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.020",93.1506849315068,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.021",38.4615384615385,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.022",22.9411764705882,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.023",7.31707317073171,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.025",26.4150943396226,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.026",9.15492957746479,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.027",9.54063604240283,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.028",29.1338582677165,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.029",43.0379746835443,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.030",2.32558139534884,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.031",0,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.032",1.41509433962264,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.033",51.9650655021834,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.034",90.9090909090909,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.035",33.4302325581395,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.036",10.6382978723404,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.037",0,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.038",27.1929824561403,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.039",50.9708737864078,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.040",16.8539325842697,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.041",0,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.042",4.25531914893617,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.043",4.02684563758389,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.044",28.5714285714286,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.045",77.1812080536913,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.046",46.0905349794239,1e-09
+"PVM_3","NeoC","07_donor","pct_PostIP_H21.33.047",5,1e-09
+"PVM_3","NonNeoC","02_ip","IP_Value",2.65715323013294,1e-07
+"PVM_3","NonNeoC","02_ip","IP_CI_Lower",2.63666817777429,1e-07
+"PVM_3","NonNeoC","02_ip","IP_CI_Upper",2.67807122796726,1e-07
+"PVM_3","NonNeoC","02_ip","IP_Y_Value",1.88791728112418,1e-07
+"PVM_3","NonNeoC","02_ip","IP_Y_CI_Lower",1.87150496101953,1e-07
+"PVM_3","NonNeoC","02_ip","IP_Y_CI_Upper",1.90475660325634,1e-07
+"PVM_3","NonNeoC","02_ip","C1",0.992424366242142,1e-07
+"PVM_3","NonNeoC","02_ip","C2",1,1e-07
+"PVM_3","NonNeoC","02_ip","C3",0.988429558568413,1e-07
+"PVM_3","NonNeoC","02_ip","C4",0.84806598760871,1e-07
+"PVM_3","NonNeoC","02_ip","C5",0.267568069230325,1e-07
+"PVM_3","NonNeoC","02_ip","IPRS",0.819297596329918,1e-07
+"PVM_3","NonNeoC","03_skcs","n_core",6941,0
+"PVM_3","NonNeoC","03_skcs","n_TREP",6317,0
+"PVM_3","NonNeoC","04_band","delta_base",0.166912908441108,1e-06
+"PVM_3","NonNeoC","04_band","IP_u",0.595077696937034,1e-09
+"PVM_3","NonNeoC","04_band","n_candidates",1708,0
+"PVM_3","NonNeoC","05_cmrf","n_Original + Refined",6646,0
+"PVM_3","NonNeoC","05_cmrf","n_Recovered",1089,0
+"PVM_3","NonNeoC","05_cmrf","n_Original only",295,0
+"PVM_3","NonNeoC","05_cmrf","n_Excluded",3102,0
+"PVM_3","NonNeoC","05_cmrf","n_removed",619,0
+"PVM_3","NonNeoC","05_cmrf","p_final",8.10580274465637e-25,1e-06
+"PVM_3","NonNeoC","05_cmrf","dRMSE_final",0.0182092415556516,1e-06
+"PVM_3","NonNeoC","05_cmrf","BV",0.0185401467118118,1e-06
+"PVM_3","NonNeoC","06_validate","k",10,0
+"PVM_3","NonNeoC","06_validate","DE",0.871210660601011,1e-07
+"PVM_3","NonNeoC","06_validate","n_TREP",7106,0
+"PVM_3","NonNeoC","06_validate","agreement_pct",97.8,0.05
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H19.33.004",32.258064516129,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.001",26.9090909090909,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.002",12.5,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.004",3.2520325203252,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.005",30.46875,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.008",20.3045685279188,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.011",14.2857142857143,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.012",30.4166666666667,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.013",18.4615384615385,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.014",4.09356725146199,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.015",48.0733944954128,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.016",7.14285714285714,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.017",30.0854700854701,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.018",64.1447368421053,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.019",21.6867469879518,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.020",45.3531598513011,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.024",7.69230769230769,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.025",13.2275132275132,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.026",25.2238805970149,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.027",13.3333333333333,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.028",89.171974522293,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.029",18.5430463576159,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.030",5.55555555555556,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.031",8.8135593220339,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.032",7.61904761904762,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.033",31.4102564102564,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.034",0,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.035",6.25,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.036",72.7272727272727,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.037",73.9130434782609,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.038",100,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.039",7.08661417322835,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.040",29.951690821256,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.041",4.34782608695652,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.043",18.5185185185185,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.044",25.9259259259259,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.045",78.75,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H20.33.046",52.9215358931553,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.001",13.3928571428571,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.002",29.8245614035088,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.003",6.66666666666667,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.004",2.56410256410256,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.005",82.0512820512821,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.006",13.3333333333333,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.007",7.89473684210526,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.008",75.7281553398058,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.009",37.8378378378378,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.010",58.5106382978723,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.011",0,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.012",12.5,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.014",28.9473684210526,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.015",0.865800865800866,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.016",19.8275862068966,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.017",23.2558139534884,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.018",30.2631578947368,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.019",19.4174757281553,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.020",100,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.021",70.9677419354839,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.022",22.5490196078431,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.023",10.15625,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.025",38.2716049382716,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.026",14.760147601476,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.027",30.4985337243402,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.028",25.4658385093168,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.029",53.9855072463768,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.030",16.3636363636364,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.031",5.75916230366492,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.032",6.54761904761905,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.033",35.625,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.034",100,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.035",37.8299120234604,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.036",18.7817258883249,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.037",3.6144578313253,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.038",23.8805970149254,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.039",83.3333333333333,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.040",10.8695652173913,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.041",0,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.042",33.6898395721925,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.043",5,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.044",56.7375886524823,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.045",73.0337078651685,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.046",67.7777777777778,1e-09
+"PVM_3","NonNeoC","07_donor","pct_PostIP_H21.33.047",4.8780487804878,1e-09
+"HKG8","NeoC","02_ip","IP_Value",1.55517280532088,1e-07
+"HKG8","NeoC","02_ip","IP_CI_Lower",1.13037357239001,1e-07
+"HKG8","NeoC","02_ip","IP_CI_Upper",1.95940320548978,1e-07
+"HKG8","NeoC","02_ip","IP_Y_Value",1.24522982457223,1e-07
+"HKG8","NeoC","02_ip","IP_Y_CI_Lower",1.17029099645833,1e-07
+"HKG8","NeoC","02_ip","IP_Y_CI_Upper",1.36046684905279,1e-07
+"HKG8","NeoC","02_ip","C1",0.786440925250704,1e-07
+"HKG8","NeoC","02_ip","C2",0.999490031030496,1e-07
+"HKG8","NeoC","02_ip","C3",0.0333086629000961,1e-07
+"HKG8","NeoC","02_ip","C4",0.821294372633401,1e-07
+"HKG8","NeoC","02_ip","C5",0.552925706771861,1e-07
+"HKG8","NeoC","02_ip","IPRS",0.638691939717312,1e-07
+"HKG8","NeoC","03_skcs","n_core",250,0
+"HKG8","NeoC","03_skcs","n_TREP",218,0
+"HKG8","NeoC","04_band","delta_base",0.152951214159375,1e-06
+"HKG8","NeoC","04_band","IP_u",0.519888346127006,1e-09
+"HKG8","NeoC","04_band","n_candidates",352,0
+"HKG8","NeoC","05_cmrf","n_Original + Refined",239,0
+"HKG8","NeoC","05_cmrf","n_Recovered",287,0
+"HKG8","NeoC","05_cmrf","n_Original only",11,0
+"HKG8","NeoC","05_cmrf","n_Excluded",895,0
+"HKG8","NeoC","05_cmrf","n_removed",65,0
+"HKG8","NeoC","05_cmrf","p_final",0.000309456908631731,1e-06
+"HKG8","NeoC","05_cmrf","dRMSE_final",0.128003888862456,1e-06
+"HKG8","NeoC","05_cmrf","BV",0.134650457580548,1e-06
+"HKG8","NeoC","06_validate","k",7,0
+"HKG8","NeoC","06_validate","DE",0.841256355193018,1e-07
+"HKG8","NeoC","06_validate","n_TREP",461,0
+"HKG8","NeoC","06_validate","agreement_pct",96.2,0.05
+"HKG8","NeoC","07_donor","pct_PostIP_H19.33.004",3.19148936170213,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.001",2.61904761904762,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.002",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.004",4.05405405405405,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.005",1.7632241813602,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.008",1.20481927710843,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.011",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.012",0.947867298578199,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.013",4.12371134020619,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.014",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.015",0.273972602739726,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.016",5,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.017",3.04,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.018",3.30097087378641,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.019",0.694444444444444,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.020",1.25223613595707,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.024",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.025",0.555555555555556,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.026",2.97766749379653,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.027",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.028",4.64716006884682,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.029",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.030",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.031",0.478468899521531,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.032",1.75438596491228,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.033",3.11111111111111,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.034",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.035",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.036",7.20720720720721,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.037",1.39372822299652,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.038",1.64835164835165,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.039",0.664451827242525,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.040",1.11731843575419,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.041",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.043",2.73972602739726,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.044",1.42857142857143,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.045",2.72108843537415,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H20.33.046",1.80505415162455,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.001",1.50602409638554,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.002",2.06611570247934,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.003",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.004",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.005",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.006",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.007",1.76056338028169,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.008",3.26409495548961,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.009",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.010",2.4390243902439,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.011",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.012",2.7027027027027,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.013",0.813008130081301,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.014",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.015",1.15606936416185,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.016",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.017",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.018",0.555555555555556,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.019",2.30769230769231,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.020",1.36986301369863,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.021",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.022",0.588235294117647,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.023",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.025",1.88679245283019,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.026",1.76056338028169,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.027",1.06007067137809,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.028",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.029",2.53164556962025,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.030",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.031",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.032",0.943396226415094,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.033",2.18340611353712,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.034",3.63636363636364,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.035",2.32558139534884,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.036",1.06382978723404,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.037",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.038",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.039",2.42718446601942,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.040",1.68539325842697,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.041",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.042",0,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.043",0.671140939597315,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.044",3.86100386100386,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.045",5.36912751677852,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.046",2.05761316872428,1e-09
+"HKG8","NeoC","07_donor","pct_PostIP_H21.33.047",0,1e-09
+"HKG8","NonNeoC","02_ip","IP_Value",1.81300140872211,1e-07
+"HKG8","NonNeoC","02_ip","IP_CI_Lower",1.44746311885544,1e-07
+"HKG8","NonNeoC","02_ip","IP_CI_Upper",2.20300265340984,1e-07
+"HKG8","NonNeoC","02_ip","IP_Y_Value",1.17449130646339,1e-07
+"HKG8","NonNeoC","02_ip","IP_Y_CI_Lower",1.09731592219684,1e-07
+"HKG8","NonNeoC","02_ip","IP_Y_CI_Upper",1.30301933562796,1e-07
+"HKG8","NonNeoC","02_ip","C1",0.799087857525617,1e-07
+"HKG8","NonNeoC","02_ip","C2",0.999999926652945,1e-07
+"HKG8","NonNeoC","02_ip","C3",0.113263704639473,1e-07
+"HKG8","NonNeoC","02_ip","C4",0.693500713360374,1e-07
+"HKG8","NonNeoC","02_ip","C5",0.249852116630043,1e-07
+"HKG8","NonNeoC","02_ip","IPRS",0.57114086376169,1e-07
+"HKG8","NonNeoC","03_skcs","n_core",199,0
+"HKG8","NonNeoC","03_skcs","n_TREP",159,0
+"HKG8","NonNeoC","04_band","delta_base",0.169132673596484,1e-06
+"HKG8","NonNeoC","04_band","IP_u",0.680555555555556,1e-09
+"HKG8","NonNeoC","04_band","n_candidates",262,0
+"HKG8","NonNeoC","05_cmrf","n_Original + Refined",191,0
+"HKG8","NonNeoC","05_cmrf","n_Recovered",240,0
+"HKG8","NonNeoC","05_cmrf","n_Original only",8,0
+"HKG8","NonNeoC","05_cmrf","n_Excluded",640,0
+"HKG8","NonNeoC","05_cmrf","n_removed",22,0
+"HKG8","NonNeoC","05_cmrf","p_final",0.000366643792539051,1e-06
+"HKG8","NonNeoC","05_cmrf","dRMSE_final",0.162146126290111,1e-06
+"HKG8","NonNeoC","05_cmrf","BV",0.16959922226042,1e-06
+"HKG8","NonNeoC","06_validate","k",10,0
+"HKG8","NonNeoC","06_validate","DE",0.780958551537067,1e-07
+"HKG8","NonNeoC","06_validate","n_TREP",367,0
+"HKG8","NonNeoC","06_validate","agreement_pct",91.6,0.05
+"HKG8","NonNeoC","07_donor","pct_PostIP_H19.33.004",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.001",4,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.002",6.25,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.004",3.2520325203252,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.005",1.5625,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.008",0.50761421319797,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.011",1.38248847926267,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.012",2.08333333333333,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.013",3.07692307692308,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.014",0.584795321637427,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.015",0.917431192660551,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.016",2.74725274725275,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.017",3.76068376068376,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.018",2.63157894736842,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.019",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.020",0.743494423791822,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.024",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.025",0.529100529100529,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.026",1.49253731343284,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.027",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.028",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.029",0.662251655629139,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.030",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.031",1.69491525423729,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.032",0.952380952380952,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.033",0.641025641025641,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.034",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.035",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.036",0.909090909090909,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.037",2.89855072463768,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.038",2.5,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.039",1.5748031496063,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.040",2.89855072463768,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.041",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.043",4.93827160493827,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.044",7.40740740740741,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.045",7.5,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H20.33.046",1.3355592654424,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.001",4.46428571428571,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.002",2.19298245614035,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.003",1.66666666666667,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.004",0.854700854700855,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.005",2.56410256410256,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.006",2.22222222222222,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.007",0.87719298245614,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.008",4.85436893203883,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.009",2.7027027027027,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.010",12.2340425531915,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.011",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.012",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.014",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.015",0.432900432900433,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.016",3.44827586206896,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.017",1.16279069767442,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.018",7.89473684210526,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.019",0.970873786407767,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.020",3.2258064516129,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.021",6.45161290322581,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.022",2.94117647058824,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.023",1.5625,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.025",1.23456790123457,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.026",2.2140221402214,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.027",1.17302052785924,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.028",1.86335403726708,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.029",1.81159420289855,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.030",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.031",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.032",1.19047619047619,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.033",0.625,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.034",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.035",0.879765395894428,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.036",0.50761421319797,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.037",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.038",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.039",2.97619047619048,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.040",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.041",0,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.042",1.60427807486631,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.043",5,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.044",4.25531914893617,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.045",3.37078651685393,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.046",4.44444444444444,1e-09
+"HKG8","NonNeoC","07_donor","pct_PostIP_H21.33.047",0,1e-09
+"PVM_3","NeoC","09_associate","beta_std_Cognitive status",0.464529340590294,1e-09
+"PVM_3","NeoC","09_associate","p_value_Cognitive status",2.36587386952056e-05,1e-09
+"PVM_3","NeoC","09_associate","FDR_Cognitive status",5.9146846738014e-05,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_Cognitive status",0.193593574976799,1e-09
+"PVM_3","NeoC","09_associate","beta_std_MMSE score",-0.493213996886696,1e-09
+"PVM_3","NeoC","09_associate","p_value_MMSE score",1.02944359819578e-06,1e-09
+"PVM_3","NeoC","09_associate","FDR_MMSE score",5.75854537733645e-06,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_MMSE score",0.216456999925526,1e-09
+"PVM_3","NeoC","09_associate","beta_std_CASI score",-0.601041455578208,1e-09
+"PVM_3","NeoC","09_associate","p_value_CASI score",7.6544421850005e-07,1e-09
+"PVM_3","NeoC","09_associate","FDR_CASI score",5.75854537733645e-06,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_CASI score",0.307727242245851,1e-09
+"PVM_3","NeoC","09_associate","beta_std_CERAD score",0.515168842261821,1e-09
+"PVM_3","NeoC","09_associate","p_value_CERAD score",1.15170907546729e-06,1e-09
+"PVM_3","NeoC","09_associate","FDR_CERAD score",5.75854537733645e-06,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_CERAD score",0.238102424160745,1e-09
+"PVM_3","NeoC","09_associate","beta_std_Braak stage",0.42087553088905,1e-09
+"PVM_3","NeoC","09_associate","p_value_Braak stage",5.5874101325375e-05,1e-09
+"PVM_3","NeoC","09_associate","FDR_Braak stage",0.000119730217125803,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_Braak stage",0.158917598664499,1e-09
+"PVM_3","NeoC","09_associate","beta_std_Thal phase",0.379289940838404,1e-09
+"PVM_3","NeoC","09_associate","p_value_Thal phase",0.000198533745848979,1e-09
+"PVM_3","NeoC","09_associate","FDR_Thal phase",0.000330889576414965,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_Thal phase",0.129064644470129,1e-09
+"PVM_3","NeoC","09_associate","beta_std_ADNC rank",0.444438392193719,1e-09
+"PVM_3","NeoC","09_associate","p_value_ADNC rank",1.70632177189305e-05,1e-09
+"PVM_3","NeoC","09_associate","FDR_ADNC rank",5.11896531567915e-05,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_ADNC rank",0.177209816228547,1e-09
+"PVM_3","NeoC","09_associate","beta_std_CAA score",0.196079268021022,1e-09
+"PVM_3","NeoC","09_associate","p_value_CAA score",0.0797117408152899,1e-09
+"PVM_3","NeoC","09_associate","FDR_CAA score",0.0996396760191124,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_CAA score",0.0344927637286717,1e-09
+"PVM_3","NeoC","09_associate","beta_std_APOE e4 dose",0.128729089179145,1e-09
+"PVM_3","NeoC","09_associate","p_value_APOE e4 dose",0.245067685022258,1e-09
+"PVM_3","NeoC","09_associate","FDR_APOE e4 dose",0.262572519666705,1e-09
+"PVM_3","NeoC","09_associate","delta_R2_APOE e4 dose",0.0151249251445884,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_Cognitive status",0.498575797578902,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_Cognitive status",3.32677802946938e-06,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_Cognitive status",2.28597228750912e-05,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_Cognitive status",0.232366440432034,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_MMSE score",-0.464527937468964,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_MMSE score",3.65061979855111e-06,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_MMSE score",2.28597228750912e-05,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_MMSE score",0.200172189181474,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_CASI score",-0.551734844151334,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_CASI score",5.20643904967885e-06,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_CASI score",2.28597228750912e-05,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_CASI score",0.274178722628949,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_CERAD score",0.44476652591624,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_CERAD score",2.89440284455536e-05,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_CERAD score",8.68320853366608e-05,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_CERAD score",0.184916305340041,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_Braak stage",0.391098187532379,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_Braak stage",0.000161824717685097,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_Braak stage",0.000389478774054266,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_Braak stage",0.142982414452491,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_Thal phase",0.342203090702883,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_Thal phase",0.000731105535650516,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_Thal phase",0.00121850922608419,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_Thal phase",0.109465905826714,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_ADNC rank",0.387969748255676,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_ADNC rank",0.000181756761225324,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_ADNC rank",0.000389478774054266,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_ADNC rank",0.140704097823868,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_CAA score",0.120866425173227,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_CAA score",0.271396707541719,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_CAA score",0.339245884427149,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_CAA score",0.0136559643535431,1e-09
+"PVM_3","NonNeoC","09_associate","beta_std_APOE e4 dose",0.0913114961528733,1e-09
+"PVM_3","NonNeoC","09_associate","p_value_APOE e4 dose",0.404225163057953,1e-09
+"PVM_3","NonNeoC","09_associate","FDR_APOE e4 dose",0.461733993222598,1e-09
+"PVM_3","NonNeoC","09_associate","delta_R2_APOE e4 dose",0.00786430811058508,1e-09
+"HKG8","NeoC","09_associate","beta_std_Cognitive status",0.206380441210588,1e-09
+"HKG8","NeoC","09_associate","p_value_Cognitive status",0.0608379245262379,1e-09
+"HKG8","NeoC","09_associate","FDR_Cognitive status",0.129723215086688,1e-09
+"HKG8","NeoC","09_associate","delta_R2_Cognitive status",0.0416834448949864,1e-09
+"HKG8","NeoC","09_associate","beta_std_MMSE score",-0.12659815903391,1e-09
+"HKG8","NeoC","09_associate","p_value_MMSE score",0.221074576749555,1e-09
+"HKG8","NeoC","09_associate","FDR_MMSE score",0.368457627915924,1e-09
+"HKG8","NeoC","09_associate","delta_R2_MMSE score",0.0157425896034972,1e-09
+"HKG8","NeoC","09_associate","beta_std_CASI score",-0.303593226905256,1e-09
+"HKG8","NeoC","09_associate","p_value_CASI score",0.0134018380834844,1e-09
+"HKG8","NeoC","09_associate","FDR_CASI score",0.0335045952087109,1e-09
+"HKG8","NeoC","09_associate","delta_R2_CASI score",0.0886295140355772,1e-09
+"HKG8","NeoC","09_associate","beta_std_CERAD score",0.328125428209657,1e-09
+"HKG8","NeoC","09_associate","p_value_CERAD score",0.00195558959619678,1e-09
+"HKG8","NeoC","09_associate","FDR_CERAD score",0.0216193244450879,1e-09
+"HKG8","NeoC","09_associate","delta_R2_CERAD score",0.105367410152948,1e-09
+"HKG8","NeoC","09_associate","beta_std_Braak stage",0.267227687986492,1e-09
+"HKG8","NeoC","09_associate","p_value_Braak stage",0.00950470847309739,1e-09
+"HKG8","NeoC","09_associate","FDR_Braak stage",0.0285141254192922,1e-09
+"HKG8","NeoC","09_associate","delta_R2_Braak stage",0.0698858801399461,1e-09
+"HKG8","NeoC","09_associate","beta_std_Thal phase",0.28280343959864,1e-09
+"HKG8","NeoC","09_associate","p_value_Thal phase",0.00443314829952197,1e-09
+"HKG8","NeoC","09_associate","FDR_Thal phase",0.0216193244450879,1e-09
+"HKG8","NeoC","09_associate","delta_R2_Thal phase",0.0782701029539652,1e-09
+"HKG8","NeoC","09_associate","beta_std_ADNC rank",0.282681035804418,1e-09
+"HKG8","NeoC","09_associate","p_value_ADNC rank",0.00576515318535678,1e-09
+"HKG8","NeoC","09_associate","FDR_ADNC rank",0.0216193244450879,1e-09
+"HKG8","NeoC","09_associate","delta_R2_ADNC rank",0.0782023634367435,1e-09
+"HKG8","NeoC","09_associate","beta_std_CAA score",0.308931082253111,1e-09
+"HKG8","NeoC","09_associate","p_value_CAA score",0.00333528663301544,1e-09
+"HKG8","NeoC","09_associate","FDR_CAA score",0.0216193244450879,1e-09
+"HKG8","NeoC","09_associate","delta_R2_CAA score",0.0934006163700603,1e-09
+"HKG8","NeoC","09_associate","beta_std_APOE e4 dose",0.0773263362629236,1e-09
+"HKG8","NeoC","09_associate","p_value_APOE e4 dose",0.469351839705618,1e-09
+"HKG8","NeoC","09_associate","FDR_APOE e4 dose",0.586689799632022,1e-09
+"HKG8","NeoC","09_associate","delta_R2_APOE e4 dose",0.00589084446166723,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_Cognitive status",0.341425850025626,1e-09
+"HKG8","NonNeoC","09_associate","p_value_Cognitive status",0.00154064729743051,1e-09
+"HKG8","NonNeoC","09_associate","FDR_Cognitive status",0.0231097094614577,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_Cognitive status",0.115989051181637,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_MMSE score",-0.162042032539293,1e-09
+"HKG8","NonNeoC","09_associate","p_value_MMSE score",0.116106974581924,1e-09
+"HKG8","NonNeoC","09_associate","FDR_MMSE score",0.580534872909618,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_MMSE score",0.026183285069901,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_CASI score",-0.101057893646411,1e-09
+"HKG8","NonNeoC","09_associate","p_value_CASI score",0.422776513535787,1e-09
+"HKG8","NonNeoC","09_associate","FDR_CASI score",0.864633251714333,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_CASI score",0.00994927989824726,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_CERAD score",0.148030567347742,1e-09
+"HKG8","NonNeoC","09_associate","p_value_CERAD score",0.171991718563386,1e-09
+"HKG8","NonNeoC","09_associate","FDR_CERAD score",0.644968944612698,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_CERAD score",0.0218035396749673,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_Braak stage",0.0406053857669827,1e-09
+"HKG8","NonNeoC","09_associate","p_value_Braak stage",0.69938476790024,1e-09
+"HKG8","NonNeoC","09_associate","FDR_Braak stage",0.864633251714333,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_Braak stage",0.0016405575838748,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_Thal phase",0.066430709526625,1e-09
+"HKG8","NonNeoC","09_associate","p_value_Thal phase",0.513813687673359,1e-09
+"HKG8","NonNeoC","09_associate","FDR_Thal phase",0.864633251714333,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_Thal phase",0.0043909852602069,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_ADNC rank",-0.0282758496758374,1e-09
+"HKG8","NonNeoC","09_associate","p_value_ADNC rank",0.787855057867575,1e-09
+"HKG8","NonNeoC","09_associate","FDR_ADNC rank",0.864633251714333,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_ADNC rank",0.000795528101567716,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_CAA score",0.0304733317486284,1e-09
+"HKG8","NonNeoC","09_associate","p_value_CAA score",0.77561438914193,1e-09
+"HKG8","NonNeoC","09_associate","FDR_CAA score",0.864633251714333,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_CAA score",0.00092398320339182,1e-09
+"HKG8","NonNeoC","09_associate","beta_std_APOE e4 dose",-0.0260834552804083,1e-09
+"HKG8","NonNeoC","09_associate","p_value_APOE e4 dose",0.806991034933377,1e-09
+"HKG8","NonNeoC","09_associate","FDR_APOE e4 dose",0.864633251714333,1e-09
+"HKG8","NonNeoC","09_associate","delta_R2_APOE e4 dose",0.000677468191516109,1e-09
+"PVM_3","NeoC","08_deg","n_cells_group_1_PostIP_vs_NMPost",4910,0
+"PVM_3","NeoC","08_deg","n_cells_group_2_PostIP_vs_NMPost",970,0
+"PVM_3","NeoC","08_deg","n_paired_donors_PostIP_vs_NMPost",57,0
+"PVM_3","NeoC","08_deg","n_genes_tested_PostIP_vs_NMPost",10956,0
+"PVM_3","NeoC","08_deg","n_significant_PostIP_vs_NMPost",86,0
+"PVM_3","NeoC","08_deg","n_significant_up_PostIP_vs_NMPost",85,0
+"PVM_3","NeoC","08_deg","n_significant_down_PostIP_vs_NMPost",1,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_1_PostIP_vs_NMPost",4111,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_2_PostIP_vs_NMPost",1149,0
+"PVM_3","NonNeoC","08_deg","n_paired_donors_PostIP_vs_NMPost",60,0
+"PVM_3","NonNeoC","08_deg","n_genes_tested_PostIP_vs_NMPost",9901,0
+"PVM_3","NonNeoC","08_deg","n_significant_PostIP_vs_NMPost",99,0
+"PVM_3","NonNeoC","08_deg","n_significant_up_PostIP_vs_NMPost",98,0
+"PVM_3","NonNeoC","08_deg","n_significant_down_PostIP_vs_NMPost",1,0
+"PVM_3","NeoC","08_deg","n_cells_group_1_PreIP_vs_NMPre",4544,0
+"PVM_3","NeoC","08_deg","n_cells_group_2_PreIP_vs_NMPre",2907,0
+"PVM_3","NeoC","08_deg","n_paired_donors_PreIP_vs_NMPre",79,0
+"PVM_3","NeoC","08_deg","n_genes_tested_PreIP_vs_NMPre",11468,0
+"PVM_3","NeoC","08_deg","n_significant_PreIP_vs_NMPre",16,0
+"PVM_3","NeoC","08_deg","n_significant_up_PreIP_vs_NMPre",1,0
+"PVM_3","NeoC","08_deg","n_significant_down_PreIP_vs_NMPre",15,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_1_PreIP_vs_NMPre",3624,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_2_PreIP_vs_NMPre",2248,0
+"PVM_3","NonNeoC","08_deg","n_paired_donors_PreIP_vs_NMPre",71,0
+"PVM_3","NonNeoC","08_deg","n_genes_tested_PreIP_vs_NMPre",10965,0
+"PVM_3","NonNeoC","08_deg","n_significant_PreIP_vs_NMPre",12,0
+"PVM_3","NonNeoC","08_deg","n_significant_up_PreIP_vs_NMPre",2,0
+"PVM_3","NonNeoC","08_deg","n_significant_down_PreIP_vs_NMPre",10,0
+"PVM_3","NeoC","08_deg","n_cells_group_1_PostIP_vs_PreIP",4910,0
+"PVM_3","NeoC","08_deg","n_cells_group_2_PostIP_vs_PreIP",4544,0
+"PVM_3","NeoC","08_deg","n_paired_donors_PostIP_vs_PreIP",71,0
+"PVM_3","NeoC","08_deg","n_genes_tested_PostIP_vs_PreIP",11547,0
+"PVM_3","NeoC","08_deg","n_significant_PostIP_vs_PreIP",256,0
+"PVM_3","NeoC","08_deg","n_significant_up_PostIP_vs_PreIP",143,0
+"PVM_3","NeoC","08_deg","n_significant_down_PostIP_vs_PreIP",113,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_1_PostIP_vs_PreIP",4111,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_2_PostIP_vs_PreIP",3624,0
+"PVM_3","NonNeoC","08_deg","n_paired_donors_PostIP_vs_PreIP",68,0
+"PVM_3","NonNeoC","08_deg","n_genes_tested_PostIP_vs_PreIP",10998,0
+"PVM_3","NonNeoC","08_deg","n_significant_PostIP_vs_PreIP",143,0
+"PVM_3","NonNeoC","08_deg","n_significant_up_PostIP_vs_PreIP",103,0
+"PVM_3","NonNeoC","08_deg","n_significant_down_PostIP_vs_PreIP",40,0
+"PVM_3","NeoC","08_deg","n_cells_group_1_NMPost_vs_NMPre",970,0
+"PVM_3","NeoC","08_deg","n_cells_group_2_NMPost_vs_NMPre",2907,0
+"PVM_3","NeoC","08_deg","n_paired_donors_NMPost_vs_NMPre",57,0
+"PVM_3","NeoC","08_deg","n_genes_tested_NMPost_vs_NMPre",10935,0
+"PVM_3","NeoC","08_deg","n_significant_NMPost_vs_NMPre",17,0
+"PVM_3","NeoC","08_deg","n_significant_up_NMPost_vs_NMPre",12,0
+"PVM_3","NeoC","08_deg","n_significant_down_NMPost_vs_NMPre",5,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_1_NMPost_vs_NMPre",1149,0
+"PVM_3","NonNeoC","08_deg","n_cells_group_2_NMPost_vs_NMPre",2248,0
+"PVM_3","NonNeoC","08_deg","n_paired_donors_NMPost_vs_NMPre",58,0
+"PVM_3","NonNeoC","08_deg","n_genes_tested_NMPost_vs_NMPre",9815,0
+"PVM_3","NonNeoC","08_deg","n_significant_NMPost_vs_NMPre",14,0
+"PVM_3","NonNeoC","08_deg","n_significant_up_NMPost_vs_NMPre",12,0
+"PVM_3","NonNeoC","08_deg","n_significant_down_NMPost_vs_NMPre",2,0
