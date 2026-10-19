@@ -26,7 +26,7 @@ genes, cell by cell, and finds where that relationship changes.
    score (IPRS).
 4. Optional: the Spearman-Kendall cell-level score (SKCS) keeps the cells that
    carry the co-expression (SKCS-core).
-5. Optional: CMRF (copula-based module refinement with fold cross-validation)
+5. Optional: CMRF (copula monotone recovery filter)
    recovers cells near the module through a tolerance band and a repeated
    stratified k-fold cross-validation gate (RSk-fCV).
 

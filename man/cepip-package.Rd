@@ -3,7 +3,7 @@
 \docType{package}
 \name{cepip-package}
 \alias{cepip-package}
-\title{cepip: CEP-IP and CMRF for single-cell co-expression}
+\title{cepip: CEP-IP with CMRF for single-cell co-expression}
 \description{
 The main function is [cepip()]. The steps can also be run one by one:
 [cepip_screen()], [cepip_composite()], [cepip_fit()], [cepip_ep()],

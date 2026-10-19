@@ -1,4 +1,4 @@
-#' Copula-based module refinement with fold cross-validation (CMRF)
+#' Copula monotone recovery filter (CMRF)
 #'
 #' Runs CMRF Stage 2, the repeated stratified k-fold cross-validation
 #' (RSk-fCV) gate, on the Stage 1 band of [cepip_band()].

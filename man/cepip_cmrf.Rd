@@ -2,7 +2,7 @@
 % Please edit documentation in R/cmrf.R
 \name{cepip_cmrf}
 \alias{cepip_cmrf}
-\title{Copula-based module refinement with fold cross-validation (CMRF)}
+\title{Copula monotone recovery filter (CMRF)}
 \usage{
 cepip_cmrf(
   skcs = NULL,

@@ -1,6 +1,6 @@
 # cepip
 
-R package for **CEP-IP** (cell explanatory power with inflection point) and its extensions **SKCS** (Spearman-Kendall cell-level score) and **CMRF** (copula-based module refinement with fold cross-validation), for co-expression analysis in single-cell data.
+R package for **CEP-IP** (cell explanatory power with inflection point) and its extensions **SKCS** (Spearman-Kendall cell-level score) and **CMRF** (copula monotone recovery filter), for co-expression analysis in single-cell data.
 
 The full analysis of the SEA-AD paper, with all scripts, the container and the console logs, is in the repository [CEP-IP_and_CMRF_in_SEA-AD](https://github.com/kahkengwong/CEP-IP_and_CMRF_in_SEA-AD).
 
