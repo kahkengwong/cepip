@@ -242,8 +242,8 @@ u_SK <- rank(Si_norm) / (n + 1); v_SK <- rank(Ki) / (n + 1)    # pitcher plot co
 ```
 
 **Results.**
-- **E.** The Module holds 9,454 of the 13,331 cells (70.9%): the 8,103 OriRef cells in their four groups and the 1,351 Recovered cells. The Recovered cells fill the gap between the Pre-IP and Post-IP cells around the IP, which the fixed gates had left empty (panel A). The 3,877 non-Module cells are grey. In Validation1, the GAM refitted on the Module cells has a DE of 0.8741, and 97.5% of the OriRef cells keep their four-group label.
-- **F.** The Recovered cells (purple) lie where the Post-IP (green) and Pre-IP (amber) branches meet. Most of them lie left of the S<sub>i</sub> gate line and above the K<sub>i</sub> gate line: they failed the S<sub>i</sub> gate and passed the K<sub>i</sub> gate. A few lie just below the K<sub>i</sub> gate line. CMRF recovered these cells because they follow the same curve in copula space as the SKCS-core cells (panel E). The 3,573 Excluded cells (grey) lie below or to the left of the gate lines, because they also failed at least one gate.
+- **E.** The Module is the OriRef cells in their four groups plus the Recovered cells (purple). The Recovered cells fill the gap between the Pre-IP and Post-IP cells that the fixed gates left empty (panel A). In Validation1, the GAM refitted on the Module has a DE of 0.8741, and 97.5% of the OriRef cells keep their four-group label.
+- **F.** The Recovered cells sit where the Post-IP (green) and Pre-IP (amber) branches meet. Most of them lie left of the S<sub>i</sub> gate line and above the K<sub>i</sub> gate line, so they failed only the S<sub>i</sub> gate. CMRF recovered them because they follow the same curve as the SKCS-core cells in copula space (panel E). The Excluded cells (grey) lie below or to the left of the gate lines.
 
 ---
 
