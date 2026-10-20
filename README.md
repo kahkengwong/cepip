@@ -6,6 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE.md)
 [![R](https://img.shields.io/badge/R-%E2%89%A5%204.1.0-276DC3?logo=r&logoColor=white&style=flat-square)](DESCRIPTION)
+[![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml)
 [![CEP-IP paper](https://img.shields.io/badge/CEP--IP-CMPB%202026-2E7D32?style=flat-square)](https://doi.org/10.1016/j.cmpb.2026.109372)
 [![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://doi.org/BIORXIV_DOI)
 [![Example data](https://img.shields.io/badge/Example%20data-Hugging%20Face-B08C00?logo=huggingface&logoColor=F3D34E&style=flat-square)](https://huggingface.co/datasets/kahkengwong/cepip_example)
