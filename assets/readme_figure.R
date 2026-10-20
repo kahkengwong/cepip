@@ -15,7 +15,9 @@
 #   F  Pitcher plot in copula space
 #
 # Output folder (first argument, default readme_fig):
-#   cepip_example_figure.png, panel_A.png ... panel_F.png, readme_figure_log.txt
+#   cepip_example_figure.png (all six panels), cepip_example_AB.png, cepip_example_CD.png,
+#   cepip_example_EF.png (two panels each, for the worked example of the README),
+#   panel_A.png ... panel_F.png, readme_figure_log.txt
 #   The log holds IPx and IPRS for checking against the published values
 #   (PVM_3 NeoC: IPx 2.4953, IPRS 0.791) and the cell counts of each panel.
 #
@@ -281,6 +283,12 @@ for (n in names(panels))
     ggsave(file.path(out, paste0("panel_", n, ".png")), panels[[n]], width = 7.5, height = 7.5, dpi = 200, bg = "white")
 g <- gridExtra::arrangeGrob(grobs = panels, ncol = 2)
 ggsave(file.path(out, "cepip_example_figure.png"), g, width = 15, height = 22.5, dpi = 130, bg = "white")
-cat("\nSaved:", file.path(out, "cepip_example_figure.png"), "\n")
+pairs <- list(AB = c("A", "B"), CD = c("C", "D"), EF = c("E", "F"))
+for (n in names(pairs))
+    ggsave(file.path(out, paste0("cepip_example_", n, ".png")),
+           gridExtra::arrangeGrob(grobs = panels[pairs[[n]]], ncol = 2),
+           width = 15, height = 7.5, dpi = 130, bg = "white")
+cat("\nSaved:", file.path(out, "cepip_example_figure.png"), "and",
+    paste0("cepip_example_", names(pairs), ".png", collapse = ", "), "\n")
 
 sink(type = "message"); sink(); close(zz)
