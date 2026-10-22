@@ -27,7 +27,7 @@ R package for **CEP-IP** (cell explanatory power with inflection point) and its 
 <tr><td align="left"><b>4</b></td><td align="left"><a href="#4-worked-example">Worked Example</a></td><td align="left">Each step of the method on the SEA-AD example data</td></tr>
 <tr><td align="left" colspan="3"><b>Outputs and reproduction</b></td></tr>
 <tr><td align="left"><b>5</b></td><td align="left"><a href="#5-output-of-cepip_save">Output of <code>cepip_save()</code></a></td><td align="left">Tables and plots written by the package</td></tr>
-<tr><td align="left"><b>6</b></td><td align="left"><a href="#6-reproducing-the-sea-ad-analysis">Reproducing the SEA-AD Analysis</a></td><td align="left">722 published values checked</td></tr>
+<tr><td align="left"><b>6</b></td><td align="left"><a href="#6-reproducing-the-sea-ad-analysis">Reproducing the SEA-AD Analysis</a></td><td align="left">698 published values checked</td></tr>
 <tr><td align="left"><b>7</b></td><td align="left"><a href="#7-reproducing-the-cep-ip-analysis-of-the-pca-dataset">Reproducing the PCa Analysis</a></td><td align="left">133 published values of the CEP-IP paper checked</td></tr>
 <tr><td align="left" colspan="3"><b>Using this work</b></td></tr>
 <tr><td align="left"><b>8</b></td><td align="left"><a href="#8-license-and-data-terms">License and Data Terms</a></td><td align="left">MIT License and the terms of the example data</td></tr>
@@ -288,7 +288,7 @@ Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_seaad.R", package =
 | OriRef / Recovered | 8,103 / 1,351 | 6,646 / 1,089 | 239 / 287 | 191 / 240 |
 | Removed by the gate | 643 | 619 | 65 | 22 |
 
-- The script checks 722 published values, including 56 DEG values. All of them agree within their tolerance.
+- The script checks 698 published values, including 56 DEG values. All of them agree within their tolerance.
 - Each arm gets one folder with its tables, plots, and console log. The check is written to `reproduction_check.csv` and `reproduction_check_log.txt` in the output folder.
 - The run took 9 minutes with 8 workers (R 4.6.1, mgcv 1.9-4).
 
