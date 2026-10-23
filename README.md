@@ -348,4 +348,4 @@ K.K. Wong. CEP-IP: An explainable framework for cell subpopulation identificatio
 
 If you use SKCS or CMRF, please also cite:
 
-K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia. *bioRxiv* (2026). https://doi.org/BIORXIV_DOI
+K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression Module Linked to Cognition. *bioRxiv* (2026). https://doi.org/BIORXIV_DOI
