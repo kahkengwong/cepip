@@ -336,7 +336,12 @@ Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_cmpb_pca.R", packag
 
 The package code is licensed under the [MIT License](LICENSE.md).
 
-The example data are derived from the Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD) of the Allen Institute for Brain Science. Their use is subject to the [Allen Institute Terms of Use](https://alleninstitute.org/legal/terms-of-use) (noncommercial research use) and [Citation Policy](https://alleninstitute.org/legal/citation-policy).
+The example data are derived from the Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD) of the Allen Institute for Brain Science. Their use is subject to the [Allen Institute Terms of Use](https://alleninstitute.org/legal/terms-of-use) (noncommercial research use) and [Citation Policy](https://alleninstitute.org/legal/citation-policy). Commercial use needs the written permission of the Allen Institute.
+
+The example data and the example figures in this README are derived from the SEA-AD data ([SEA-AD portal](https://brain-map.org/consortia/sea-ad/our-data)), described in:
+
+- M.I. Gabitto, K.J. Travaglini, V.M. Rachleff, E.S. Kaplan, B. Long, et al., Integrated multimodal cell atlas of Alzheimer's disease, Nat Neurosci, 27 (2024) 2366-2383. https://doi.org/10.1038/s41593-024-01774-5
+- K.J. Travaglini, M.I. Gabitto, Y. Ding, A. Agrawal, N. Postupna, et al., Multiregional single-cell profiling reveals shared and specialized cellular vulnerability in Alzheimer's disease, bioRxiv, (2026). https://www.biorxiv.org/content/10.64898/2026.07.01.734821v1
 
 ---
 
