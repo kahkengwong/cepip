@@ -20,7 +20,7 @@ R package for **CEP-IP** (cell explanatory power with inflection point) and its 
 <tr><th align="center" colspan="3">Table of Contents</th></tr>
 <tr><th align="left">No.</th><th align="left">Section</th><th align="left">Descriptions</th></tr>
 <tr><td align="left" colspan="3"><b>About the package</b></td></tr>
-<tr><td align="left"><b>1</b></td><td align="left"><a href="#1-overview">Overview</a></td><td align="left">What the package does and its functions</td></tr>
+<tr><td align="left"><b>1</b></td><td align="left"><a href="#1-overview">Overview</a></td><td align="left">Aims of the package and its functions</td></tr>
 <tr><td align="left" colspan="3"><b>Getting started</b></td></tr>
 <tr><td align="left"><b>2</b></td><td align="left"><a href="#2-install">Install</a></td><td align="left">Installation from GitHub</td></tr>
 <tr><td align="left"><b>3</b></td><td align="left"><a href="#3-quick-start">Quick Start</a></td><td align="left">A first run on simulated data</td></tr>
@@ -31,7 +31,7 @@ R package for **CEP-IP** (cell explanatory power with inflection point) and its 
 <tr><td align="left"><b>7</b></td><td align="left"><a href="#7-reproducing-the-cep-ip-analysis-of-the-pca-dataset">Reproducing the PCa Analysis</a></td><td align="left">133 published values of the CEP-IP paper checked</td></tr>
 <tr><td align="left" colspan="3"><b>Using this work</b></td></tr>
 <tr><td align="left"><b>8</b></td><td align="left"><a href="#8-license-and-data-terms">License and Data Terms</a></td><td align="left">MIT License and the terms of the example data</td></tr>
-<tr><td align="left"><b>9</b></td><td align="left"><a href="#9-citation">Citation</a></td><td align="left">How to cite the methods</td></tr>
+<tr><td align="left"><b>9</b></td><td align="left"><a href="#9-citation">Citation</a></td><td align="left">Citations of the methods</td></tr>
 </table>
 
 </div>
@@ -45,7 +45,7 @@ cepip analyzes the co-expression of a gene of interest (GOI) with a set of partn
 
 The package has three parts:
 - **CEP-IP** fits a generalized additive model (GAM) of the composite on the GOI. Each cell gets an explanatory power (EP), which measures how well the fitted curve explains that cell. The top cells by EP are the TREP cells. The inflection point (IP) splits the cells into Pre-IP and Post-IP cells. CEP-IP was published in [*CMPB* (2026)](https://doi.org/10.1016/j.cmpb.2026.109372).
-- **SKCS** splits the global Spearman and Kendall correlations into a score for each cell. The cells with high scores on both form the SKCS core.
+- **SKCS** splits the global Spearman and Kendall correlations into a score for each cell. The cells with high scores on both form the SKCS-core.
 - **CMRF** works in copula space, where each axis is replaced by the ranks of its values. It builds a band around the curve of the SKCS-core cells, and a cross-validated gate recovers the cells outside the core that follow the same curve. The SKCS-core cells inside the band and the recovered cells form the Module.
 
 The downstream functions compute the share of each donor's cells in each group, the differential expression between groups, and the association of a donor-level measure with clinical outcomes.
@@ -54,13 +54,13 @@ The functions, in the order of the analysis:
 
 | Step | Function | Output |
 |---|---|---|
-| Partner screen | `cepip_screen()` | GOIs ranked by their number of dual-filter partner genes (Spearman rs and Kendall tau-b) |
+| Partner screen | `cepip_screen()` | GOIs ranked by their number of dual-filter partner genes (Spearman r<sub>s</sub> and Kendall τ<sub>b</sub>) |
 | Composite | `cepip_composite()` | mean expression of the partner genes per cell |
 | CEP-IP GAM | `cepip_fit()` | GAM-REML-PRSS fit (k by the lowest PRSS), deviance explained (DE) |
 | EP and TREP | `cepip_ep()` | explanatory power per cell and the TREP cells (top round(n x DE) by EP) |
-| Inflection point | `cepip_ip()` | IP from the residual GAM R(x), 95% CI, IPy, IPRS |
+| Inflection point | `cepip_ip()` | IP from the residual GAM R(x), 95% CI, IP<sub>y</sub>, IPRS |
 | SKCS | `cepip_skcs()` | per-cell Spearman and Kendall contributions and the SKCS-core cells |
-| CMRF band | `cepip_band()` | spine, delta_base and delta_adapt band in copula space (Stage 1) |
+| CMRF band | `cepip_band()` | spine, δ<sub>base</sub> and δ<sub>adapt</sub> band in copula space (Stage 1) |
 | CMRF gate | `cepip_cmrf()` | RSk-fCV gate (Stage 2) and the Module (OriRef plus Recovered cells) |
 | Validation1 | `cepip_validate()` | GAM refit on the Module cells and label agreement |
 | Groups per donor | `cepip_donor()` | share of each donor's cells in the Module Post-IP and other groups |
@@ -98,9 +98,9 @@ plot_module(res$cmrf)
 cepip_save(list(toy = res), file.path(tempdir(), "toy_output"))
 ```
 
-* `skcs = TRUE` adds SKCS. `cmrf = TRUE` adds SKCS, CMRF, and Validation1. CMRF always uses the CEP-IP inflection point.
-* With `donor`, every GAM includes a donor random intercept and weights each cell by 1 / (cells of its donor).
-* `workers` runs the GAM k searches and the RSk-fCV gate in parallel.
+- `skcs = TRUE` adds SKCS. `cmrf = TRUE` adds SKCS, CMRF, and Validation1. CMRF always uses the CEP-IP inflection point.
+- With `donor`, every GAM includes a donor random intercept and weights each cell by 1 / (cells of its donor).
+- `workers` runs the GAM k searches and the RSk-fCV gate in parallel.
 
 > [!NOTE]
 > `cepip(x, y)` with the default settings is the published CEP-IP, except for one setting. Cells are labelled Pre-IP or Post-IP on the response axis (y < IP<sub>y</sub>). `ip_axis = "x"` gives the published split on the GOI axis (x < IP<sub>x</sub>).
@@ -166,7 +166,7 @@ ip <- x_seq[i] - r_hat[i] * (x_seq[i + 1] - x_seq[i]) / (r_hat[i + 1] - r_hat[i]
 ```
 
 **Results.**
-- **A.** 8,407 of the 13,331 cells (63.1%) are SKCS-core cells: Pre-IP TREP 3,781, Pre-IP non-TREP 101, Post-IP TREP 3,836, and Post-IP non-TREP 689. The other 4,924 cells (grey) do not pass both gates.
+- **A.** Of the 13,331 cells, 8,407 (63.1%) are SKCS-core cells: Pre-IP TREP 3,781, Pre-IP non-TREP 101, Post-IP TREP 3,836, and Post-IP non-TREP 689. The other 4,924 cells (grey) do not pass both gates.
 - **B.** The binned residuals of the top-EP cells are negative below the IP and positive above it. R(x) crosses zero at IP<sub>x</sub> = 2.4953 (95% CI 2.4616 to 2.5280). The population curve gives IP<sub>y</sub> = 1.6648, and the IPRS is 0.791 (Strong). Cells are labelled Pre-IP or Post-IP by y < IP<sub>y</sub> (the default `ip_axis = "y"`).
 
 ### 4.2 The CMRF Band and the RSk-fCV Gate (Panels C and D)
@@ -217,14 +217,14 @@ if (p < 0.05 && eff > bv) active[worst] <- FALSE                # remove the can
 > `cepip_band()` is fast. It can be run with several values of `kappa` and `bw` and checked with `plot_band()` before the slower gate of `cepip_cmrf()`. `plot_rskfcv()` shows the folds and the test RMSE of curves A and B.
 
 **Results.**
-- **C.** 1,994 non-SKCS-core cells pass Stage 1: 1,583 inside δ<sub>base</sub> (blue) and 411 only inside the widened part of δ<sub>adapt</sub> (black). 304 SKCS-core cells lie outside the band (Original only, tan triangles). The other 8,103 SKCS-core cells form the OriRef set.
+- **C.** In Stage 1, 1,994 non-SKCS-core cells pass: 1,583 inside δ<sub>base</sub> (blue) and 411 only inside the widened part of δ<sub>adapt</sub> (black). Of the SKCS-core cells, 304 lie outside the band (Original only, tan triangles). The other 8,103 SKCS-core cells form the OriRef set.
 - **D.** The gate removed 643 of the 1,994 candidates (crosses) and kept 1,351 (Recovered, purple diamonds). The removed cells lie along the outer edges of the band, and the Recovered cells fill the band around the IP.
 
 ### 4.3 The Final Module and the Pitcher Plot (Panels E and F)
 
 <p align="center"><img src="assets/cepip_example_EF.png" width="100%" alt="Panels E and F"></p>
 
-**Aims.** Panel E shows the final Module. Panel F places the cells on the two cell-level scores, S<sub>i</sub> and K<sub>i</sub>, and shows which fixed gate the Recovered cells failed.
+**Aims.** Panel E shows the final Module. Panel F places the cells on the two cell-level scores, S<sub>i</sub> and K<sub>i</sub>, and shows the fixed gate that the Recovered cells failed.
 
 **Methods.**
 - The Module is the OriRef cells plus the Recovered cells.
@@ -253,7 +253,7 @@ One folder per arm, with no subfolders. Files are numbered in pipeline order, an
 
 | File | Content |
 |---|---|
-| `00_settings.txt`, `00_log.txt` | settings, versions, summaries and the console log |
+| `00_settings.txt`, `00_log.txt` | settings, versions, summaries, and the console log |
 | `<arm>_cepip_tables.xlsx` | one sheet per table, from `01_screen` to `14_associate` |
 | `<arm>_cepip_cells.xlsx` | the cell-level tables, when they are too large for the first workbook |
 | `02_prss` to `14_associate` (.png and .pdf) | the plots |
@@ -263,7 +263,7 @@ One folder per arm, with no subfolders. Files are numbered in pipeline order, an
 ## 6. Reproducing the SEA-AD Analysis
 
 - `cepip_example()` downloads the example data of the paper from Hugging Face ([kahkengwong/cepip_example](https://huggingface.co/datasets/kahkengwong/cepip_example)):
-  - the 24,463 Micro-PVM_3-SEAAD cells with MT-CO3 > 0
+  - the 24,463 Micro-PVM_3-SEAAD cells with *MT-CO3* > 0
   - the 2,511 cells of the HKG8 control arm
   - the donor table
   - the DEG matrices
@@ -282,7 +282,7 @@ Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_seaad.R", package =
 | Value | PVM_3 NeoC | PVM_3 NonNeoC | HKG8 NeoC | HKG8 NonNeoC |
 |---|---|---|---|---|
 | Cells | 13,331 | 11,132 | 1,432 | 1,079 |
-| IPx | 2.4953 | 2.6572 | 1.5552 | 1.8130 |
+| IP<sub>x</sub> | 2.4953 | 2.6572 | 1.5552 | 1.8130 |
 | IPRS | 0.791 | 0.819 | 0.639 | 0.571 |
 | SKCS-core cells | 8,407 | 6,941 | 250 | 199 |
 | OriRef / Recovered | 8,103 / 1,351 | 6,646 / 1,089 | 239 / 287 | 191 / 240 |
@@ -309,7 +309,7 @@ Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_seaad.R", package =
 Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_cmpb_pca.R", package = "cepip"))')" cepip_cmpb_pca 4 <folder with the .RData> <Supplementary Table 10 .xlsx>
 ```
 
-| Sample | Cells | k | DE | IPx | IPRS |
+| Sample | Cells | k | DE | IP<sub>x</sub> | IPRS |
 |---|---|---|---|---|---|
 | HYW_4701 | 985 | 6 | 0.3155 | 3.7963 | 0.696 |
 | HYW_4847 | 820 | 3 | 0.2865 | 2.1185 | 0.670 |
@@ -321,7 +321,7 @@ Rscript "$(Rscript -e 'cat(system.file("scripts", "reproduce_cmpb_pca.R", packag
 
 - The script checks 133 published values from Supplementary Tables 10 and 15 (`inst/reference/cmpb_pca_reference.csv`):
   - the cell count, total EDF, DE, and TREP cells
-  - the IP, its CI, and the stat test
+  - the IP, its CI, and the statistical test
   - the IPRS and its five components
 - All 133 agree within their tolerance.
 - The EP of all 5,855 cells agrees with Supplementary Table 10 to a relative difference of 3e-11 or less.
