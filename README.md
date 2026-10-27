@@ -8,7 +8,7 @@
 [![R](https://img.shields.io/badge/R-%E2%89%A5%204.1.0-276DC3?logo=r&logoColor=white&style=flat-square)](DESCRIPTION)
 [![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml)
 [![CEP-IP paper](https://img.shields.io/badge/CEP--IP-CMPB%202026-2E7D32?style=flat-square)](https://doi.org/10.1016/j.cmpb.2026.109372)
-[![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://doi.org/BIORXIV_DOI)
+[![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1)
 [![Example data](https://img.shields.io/badge/Example%20data-Hugging%20Face-B08C00?logo=huggingface&logoColor=F3D34E&style=flat-square)](https://huggingface.co/datasets/kahkengwong/cepip_example)
 [![SEA-AD analysis](https://img.shields.io/badge/SEA--AD%20analysis-GitHub-4E81BE?logo=github&logoColor=white&style=flat-square)](https://github.com/kahkengwong/CEP-IP_with_CMRF_in_SEA-AD)
 
@@ -71,7 +71,7 @@ The functions, in the order of the analysis:
 
 Each step has a plot function: `plot_screen()`, `plot_prss()`, `plot_fit()`, `plot_residual()`, `plot_pitcher()`, `plot_copula()`, `plot_band()`, `plot_rskfcv()`, `plot_module()`, `plot_validate()`, `plot_donor()`, `plot_deg()`, and `plot_associate()`.
 
-The full analysis of the SEA-AD paper, with all scripts, the container, and the console logs, is in the repository [CEP-IP_with_CMRF_in_SEA-AD](https://github.com/kahkengwong/CEP-IP_with_CMRF_in_SEA-AD).
+The full analysis of the [SEA-AD preprint](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1), with all scripts, the container, and the console logs, is in the repository [CEP-IP_with_CMRF_in_SEA-AD](https://github.com/kahkengwong/CEP-IP_with_CMRF_in_SEA-AD).
 
 ---
 
@@ -353,4 +353,30 @@ K.K. Wong. CEP-IP: An explainable framework for cell subpopulation identificatio
 
 If you use SKCS or CMRF, please also cite:
 
-K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression Module Linked to Cognition. *bioRxiv* (2026). https://doi.org/BIORXIV_DOI
+K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression Module Linked to Cognition. *bioRxiv* (2026). https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1
+
+<details>
+<summary><strong>BibTeX (click to expand)</strong></summary>
+
+```bibtex
+@article{Wong2026CEPIP,
+  author  = {Wong, Kah Keng},
+  title   = {{CEP-IP}: An explainable framework for cell subpopulation identification in single-cell transcriptomics},
+  journal = {Computer Methods and Programs in Biomedicine},
+  volume  = {282},
+  pages   = {109372},
+  year    = {2026},
+  doi     = {10.1016/j.cmpb.2026.109372}
+}
+
+@article{Wong2026SEAAD,
+  author  = {Wong, Kah Keng},
+  title   = {{CEP-IP} with {CMRF} in {SEA-AD} Microglia: A Mitochondrial Co-expression Module Linked to Cognition},
+  journal = {bioRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.10.22.761284},
+  url     = {https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1}
+}
+```
+
+</details>
