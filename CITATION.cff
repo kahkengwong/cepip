@@ -10,6 +10,7 @@ authors:
 version: 0.1.0
 license: MIT
 repository-code: "https://github.com/kahkengwong/cepip"
+url: "https://CRAN.R-project.org/package=cepip"
 keywords:
   - single-cell
   - co-expression
@@ -37,4 +38,5 @@ references:
     title: "CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression Module Linked to Cognition"
     journal: "bioRxiv"
     year: 2026
-    notes: "DOI to be added when the preprint is posted."
+    doi: "10.64898/2026.10.22.761284"
+    url: "https://www.biorxiv.org/content/10.64898/2026.10.22.761284v2"

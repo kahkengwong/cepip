@@ -8,7 +8,7 @@
 [![R](https://img.shields.io/badge/R-%E2%89%A5%204.1.0-276DC3?logo=r&logoColor=white&style=flat-square)](DESCRIPTION)
 [![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml) [![CRAN](https://img.shields.io/cran/v/cepip?label=CRAN&logo=r&logoColor=white&color=276DC3&style=flat-square)](https://CRAN.R-project.org/package=cepip)
 [![CEP-IP paper](https://img.shields.io/badge/CEP--IP-CMPB%202026-2E7D32?style=flat-square)](https://doi.org/10.1016/j.cmpb.2026.109372)
-[![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1)
+[![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v2)
 [![Example data](https://img.shields.io/badge/Example%20data-Hugging%20Face-B08C00?logo=huggingface&logoColor=F3D34E&style=flat-square)](https://huggingface.co/datasets/kahkengwong/cepip_example)
 [![SEA-AD analysis](https://img.shields.io/badge/SEA--AD%20analysis-GitHub-4E81BE?logo=github&logoColor=white&style=flat-square)](https://github.com/kahkengwong/CEP-IP_with_CMRF_in_SEA-AD)
 
@@ -71,7 +71,7 @@ The functions, in the order of the analysis:
 
 Each step has a plot function: `plot_screen()`, `plot_prss()`, `plot_fit()`, `plot_residual()`, `plot_pitcher()`, `plot_copula()`, `plot_band()`, `plot_rskfcv()`, `plot_module()`, `plot_validate()`, `plot_donor()`, `plot_deg()`, and `plot_associate()`.
 
-The full analysis of the [SEA-AD preprint](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1), with all scripts, the container, and the console logs, is in the repository [CEP-IP_with_CMRF_in_SEA-AD](https://github.com/kahkengwong/CEP-IP_with_CMRF_in_SEA-AD).
+The full analysis of the [SEA-AD preprint](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v2), with all scripts, the container, and the console logs, is in the repository [CEP-IP_with_CMRF_in_SEA-AD](https://github.com/kahkengwong/CEP-IP_with_CMRF_in_SEA-AD).
 
 ---
 
@@ -89,14 +89,14 @@ To also install the suggested packages:
 install.packages("cepip", dependencies = TRUE)
 ```
 
+The class tests of CMRF use the suggested packages clinfun, Hmisc, and energy. The screen uses pcaPP for a fast Kendall tau-b when it is installed.
+
 The development version is on GitHub:
 
 ```r
 # install.packages("remotes")
 remotes::install_github("kahkengwong/cepip")
 ```
-
-The class tests of CMRF use the suggested packages clinfun, Hmisc, and energy. The screen uses pcaPP for a fast Kendall tau-b when it is installed.
 
 ---
 
@@ -231,8 +231,8 @@ if (p < 0.05 && eff > bv) active[worst] <- FALSE                # remove the can
 > `cepip_band()` is fast. It can be run with several values of `kappa` and `bw` and checked with `plot_band()` before the slower gate of `cepip_cmrf()`. `plot_rskfcv()` shows the folds and the test RMSE of curves A and B.
 
 **Results.**
-- **C.** In Stage 1, 1,994 non-SKCS-core cells pass: 1,583 inside δ<sub>base</sub> (blue) and 411 only inside the widened part of δ<sub>adapt</sub> (black). Of the SKCS-core cells, 304 lie outside the band (Original only, tan triangles). The other 8,103 SKCS-core cells form the OriRef set.
-- **D.** The gate removed 643 of the 1,994 candidates (crosses) and kept 1,351 (Recovered, purple diamonds). The removed cells lie along the outer edges of the band, and the Recovered cells fill the band around the IP.
+- **C.** In Stage 1, 1,994 non-SKCS-core cells pass: 1,583 inside δ<sub>base</sub> (blue) and 411 only inside the widened part of δ<sub>adapt</sub> (black). Of the SKCS-core cells, 304 are outside the band (Original only, tan triangles). The other 8,103 SKCS-core cells form the OriRef set.
+- **D.** The gate removed 643 of the 1,994 candidates (crosses) and kept 1,351 (Recovered, purple diamonds). The removed cells are along the outer edges of the band, and the Recovered cells fill the band around the IP.
 
 ### 4.3 The Final Module and the Pitcher Plot (Panels E and F)
 
@@ -257,7 +257,7 @@ u_SK <- rank(Si_norm) / (n + 1); v_SK <- rank(Ki) / (n + 1)    # pitcher plot co
 
 **Results.**
 - **E.** The Module is the OriRef cells in their four groups plus the Recovered cells (purple). The Recovered cells fill the gap between the Pre-IP and Post-IP cells that the fixed gates left empty (panel A). In Validation1, the GAM refitted on the Module has a DE of 0.8741, and 97.5% of the OriRef cells keep their four-group label.
-- **F.** The Recovered cells sit where the Post-IP (green) and Pre-IP (amber) branches meet. Most of them lie left of the S<sub>i</sub> gate line and above the K<sub>i</sub> gate line, so they failed only the S<sub>i</sub> gate. CMRF recovered them because they follow the same curve as the SKCS-core cells in copula space (panel E). The Excluded cells (grey) lie below or to the left of the gate lines.
+- **F.** The Recovered cells sit where the Post-IP (green) and Pre-IP (amber) branches meet. Of the 1,351 Recovered cells, 98.7% failed the S<sub>i</sub> gate (left of its line) and 1.3% failed the K<sub>i</sub> gate (below its line). CMRF recovered them because they follow the same curve as the SKCS-core cells in copula space (panel E). The Excluded cells (grey) are below or to the left of the gate lines.
 
 ---
 
@@ -367,7 +367,7 @@ K.K. Wong. CEP-IP: An explainable framework for cell subpopulation identificatio
 
 If you use SKCS or CMRF, please also cite:
 
-K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression Module Linked to Cognition. *bioRxiv* (2026). https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1
+K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression Module Linked to Cognition. *bioRxiv* (2026). https://www.biorxiv.org/content/10.64898/2026.10.22.761284v2
 
 <details>
 <summary><strong>BibTeX (click to expand)</strong></summary>
@@ -389,7 +389,7 @@ K.K. Wong. CEP-IP with CMRF in SEA-AD Microglia: A Mitochondrial Co-expression M
   journal = {bioRxiv},
   year    = {2026},
   doi     = {10.64898/2026.10.22.761284},
-  url     = {https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1}
+  url     = {https://www.biorxiv.org/content/10.64898/2026.10.22.761284v2}
 }
 ```
 
