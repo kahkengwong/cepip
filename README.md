@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE.md)
 [![R](https://img.shields.io/badge/R-%E2%89%A5%204.1.0-276DC3?logo=r&logoColor=white&style=flat-square)](DESCRIPTION)
-[![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml) [![CRAN](https://img.shields.io/cran/v/cepip?label=CRAN&logo=r&logoColor=white&color=276DC3&style=flat-square)](https://CRAN.R-project.org/package=cepip)
 [![CEP-IP paper](https://img.shields.io/badge/CEP--IP-CMPB%202026-2E7D32?style=flat-square)](https://doi.org/10.1016/j.cmpb.2026.109372)
 [![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v1)
 [![Example data](https://img.shields.io/badge/Example%20data-Hugging%20Face-B08C00?logo=huggingface&logoColor=F3D34E&style=flat-square)](https://huggingface.co/datasets/kahkengwong/cepip_example)
@@ -22,7 +22,7 @@ R package for **CEP-IP** (cell explanatory power with inflection point) and its 
 <tr><td align="left" colspan="3"><b>About the package</b></td></tr>
 <tr><td align="left"><b>1</b></td><td align="left"><a href="#1-overview">Overview</a></td><td align="left">Aims of the package and its functions</td></tr>
 <tr><td align="left" colspan="3"><b>Getting started</b></td></tr>
-<tr><td align="left"><b>2</b></td><td align="left"><a href="#2-install">Install</a></td><td align="left">Installation from GitHub</td></tr>
+<tr><td align="left"><b>2</b></td><td align="left"><a href="#2-install">Install</a></td><td align="left">Installation from CRAN or GitHub</td></tr>
 <tr><td align="left"><b>3</b></td><td align="left"><a href="#3-quick-start">Quick Start</a></td><td align="left">A first run on simulated data</td></tr>
 <tr><td align="left"><b>4</b></td><td align="left"><a href="#4-worked-example">Worked Example</a></td><td align="left">Each step of the method on the SEA-AD example data</td></tr>
 <tr><td align="left" colspan="3"><b>Outputs and reproduction</b></td></tr>
@@ -76,6 +76,20 @@ The full analysis of the [SEA-AD preprint](https://www.biorxiv.org/content/10.64
 ---
 
 ## 2. Install
+
+cepip is on [CRAN](https://CRAN.R-project.org/package=cepip):
+
+```r
+install.packages("cepip")
+```
+
+To also install the suggested packages:
+
+```r
+install.packages("cepip", dependencies = TRUE)
+```
+
+The development version is on GitHub:
 
 ```r
 # install.packages("remotes")
