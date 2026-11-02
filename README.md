@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE.md)
 [![R](https://img.shields.io/badge/R-%E2%89%A5%204.1.0-276DC3?logo=r&logoColor=white&style=flat-square)](DESCRIPTION)
-[![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml) [![CRAN](https://img.shields.io/cran/v/cepip?label=CRAN&logo=r&logoColor=white&color=276DC3&style=flat-square)](https://CRAN.R-project.org/package=cepip)
+[![R-CMD-check](https://img.shields.io/github/actions/workflow/status/kahkengwong/cepip/R-CMD-check.yaml?branch=main&label=R-CMD-check&style=flat-square)](https://github.com/kahkengwong/cepip/actions/workflows/R-CMD-check.yaml) [![CRAN](https://img.shields.io/cran/v/cepip?label=CRAN&logo=r&logoColor=white&color=276DC3&style=flat-square)](https://CRAN.R-project.org/package=cepip) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23884523-1682D4?style=flat-square)](https://doi.org/10.5281/zenodo.23884523)
 [![CEP-IP paper](https://img.shields.io/badge/CEP--IP-CMPB%202026-2E7D32?style=flat-square)](https://doi.org/10.1016/j.cmpb.2026.109372)
 [![Preprint](https://img.shields.io/badge/Preprint-bioRxiv-B31B1B?style=flat-square)](https://www.biorxiv.org/content/10.64898/2026.10.22.761284v2)
 [![Example data](https://img.shields.io/badge/Example%20data-Hugging%20Face-B08C00?logo=huggingface&logoColor=F3D34E&style=flat-square)](https://huggingface.co/datasets/kahkengwong/cepip_example)
