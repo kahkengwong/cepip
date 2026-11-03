@@ -199,7 +199,7 @@ $$\delta_{adapt}(u) = \delta_{base}\left(1 + \kappa\, e^{-(u - IP_u)^2 / (2\,bw^
 
 - Stage 1 sorts the cells by the band:
   - SKCS-core cells inside the band are the reference set (Original + Refined, OriRef)
-  - SKCS-core cells outside the band are "Original only" and leave the Module
+  - SKCS-core cells outside the band are "Original-only" and leave the Module
   - non-SKCS-core cells inside the band are the candidates
 
 ```r
@@ -231,7 +231,7 @@ if (p < 0.05 && eff > bv) active[worst] <- FALSE                # remove the can
 > `cepip_band()` is fast. It can be run with several values of `kappa` and `bw` and checked with `plot_band()` before the slower gate of `cepip_cmrf()`. `plot_rskfcv()` shows the folds and the test RMSE of curves A and B.
 
 **Results.**
-- **C.** In Stage 1, 1,994 non-SKCS-core cells pass: 1,583 inside δ<sub>base</sub> (blue) and 411 only inside the widened part of δ<sub>adapt</sub> (black). Of the SKCS-core cells, 304 are outside the band (Original only, tan triangles). The other 8,103 SKCS-core cells form the OriRef set.
+- **C.** In Stage 1, 1,994 non-SKCS-core cells pass: 1,583 inside δ<sub>base</sub> (blue) and 411 only inside the widened part of δ<sub>adapt</sub> (black). Of the SKCS-core cells, 304 are outside the band (Original-only, tan triangles). The other 8,103 SKCS-core cells form the OriRef set.
 - **D.** The gate removed 643 of the 1,994 candidates (crosses) and kept 1,351 (Recovered, purple diamonds). The removed cells are along the outer edges of the band, and the Recovered cells fill the band around the IP.
 
 ### 4.3 The Final Module and the Pitcher Plot (Panels E and F)
